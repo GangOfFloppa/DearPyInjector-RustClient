@@ -8,5 +8,5 @@ def MainThread():
     WelcomeBox()
     w.Window.MainWindow()
 if __name__ == "__main__":
-    #x_inject.Injector.CheckIfRustExists()
+    x_inject.Injector.CheckIfRustExists()
     MainThread()
