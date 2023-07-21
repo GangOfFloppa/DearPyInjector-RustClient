@@ -19,4 +19,4 @@ class Window:
         x.destroy_context()
     def Inject():
         str_path = x.get_value("input_path")
-        return ix.Injector.InjectDLL(str_path)
+        ix.Injector.InjectDLL(str_path)
