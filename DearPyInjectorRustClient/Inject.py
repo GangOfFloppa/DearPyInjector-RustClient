@@ -5,7 +5,7 @@ import pymem as p
 class Injector:
     def InjectDLL(path: str):
         pymem_rust = p.Pymem("RustClient.exe")
-        vbb = bytes(path)
+        vbb = bytes(path, "utf-8")
         return inject_dll(pymem_rust.process_handle, vbb)
     def GetValue_Tag(tag: str):
         return x.get_value(tag)
