@@ -38,7 +38,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "D:\VSCode\Python\DearPyInjectorRustClient\dist\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\VSCode\Python\DearPyInjectorRustClient\*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion
+Source: "D:\VSCode\Python\DearPyInjectorRustClient\dist\*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
